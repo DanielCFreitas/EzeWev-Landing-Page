@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900&display=swap');
+:root {
+    --cor-azul-escuro: #01193c;
+    --cor-amarelo: #ffbc27;
+    --cor-amarelo-claro: #ffe9b7;
+    --cor-cinza-claro: #f8faff;
+    --cor-cinza: #9e9fa7;
+    --cor-cinza-escuro: #353535;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.btn_hireus {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: var(--cor-amarelo);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px var(--cor-amarelo-claro);
+    transition: transform .2s ease-in-out;
+}
+
+.btn_hireus:hover {
+    background-color: var(--cor-amarelo-claro);
+    color: var(--cor-amarelo)
+}
+
+.show--mobile {
+    display: none;
+}
+
+.st0 {
+    fill: #ffe9b7;
+}
+
+.st1 {
+    fill: none;
+    stroke: #ffc900;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 12.0223, 10.0186;
+}
+
+.st2 {
+    fill: url(#SVGID_1_);
+}
+
+.st3 {
+    fill: #f6cf87;
+    transition: all .5s ease-in-out;
+}
+
+.st4 {
+    fill: none;
+    stroke: #f6cf87;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.title__with__image {
+    color: var(--cor-azul-escuro);
+}
+
+.title__with__image::before {
+    content: url('../images/title_services.svg');
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 70px;
+    z-index: -1;
+    width: 100px;
+    height: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .hide--mobile {
+        display: none;
+    }
+    .show--mobile {
+        display: inline-block;
+    }
+}

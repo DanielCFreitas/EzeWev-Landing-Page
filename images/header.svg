@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 519 483" style="enable-background:new 0 0 519 483;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFE9B7;}
+	.st1{fill:none;stroke:#FFC900;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:12.0223,10.0186;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:#F6CF87;}
+	.st4{fill:none;stroke:#F6CF87;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M285.5,55.5l106,231c0,0-18,118-70,135s-80,16-120-12s-151-108-151-108s-83-80-26-221s193-41,232-35
+	S285.5,55.5,285.5,55.5z"/>
+<g>
+	<path class="st1" d="M118.05,478.13c-33.18,0-61.48-15.6-77.68-42.8c-9.26-15.55-13.87-34.15-13.33-53.78
+		c0.56-20.62,6.58-41.63,17.88-62.45c36.3-66.9,25.83-90.81,12.58-121.08C46.66,173.23,33.15,142.39,43.36,87.5
+		c5.33-28.65,26.49-62.81,97.04-62.81c29.21,0,59.48,5.58,81.57,9.66c10.9,2.01,21.2,3.91,25.32,3.91l0.24,0
+		c25.84-0.99,75.77-2,76.28-2.01l0.27-0.01l0.27,0c70.54,1.17,116.1,35.64,141.91,64.35c28.51,31.72,44.14,68.85,44.83,89.13
+		c1.16,33.55-7.18,81.23-92.53,107.84c-6.16,1.92-11.84,3.65-17.15,5.26c-59.47,18.08-68.61,20.86-175.91,124.22
+		c-43.82,42.21-82.62,51.07-107.45,51.08C118.07,478.13,118.06,478.13,118.05,478.13z"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="41.8963" y1="251.1639" x2="496.0909" y2="251.1639">
+	<stop  offset="0" style="stop-color:#ED9B02"/>
+	<stop  offset="1" style="stop-color:#FFC83C"/>
+</linearGradient>
+<path class="st2" d="M324,51c121,2,171,110,172,139s-5,69-82,93s-79.62,18-199,133C106,521,0.82,431.37,58,326
+	c70-129-21.71-119.29,0-236C74,4,222,54,248,53S324,51,324,51z"/>
+<circle class="st3" cx="303.5" cy="18.5" r="10.5"/>
+<circle class="st3" cx="398.5" cy="370.5" r="10.5"/>
+<circle class="st3" cx="22.5" cy="266.5" r="10.5"/>
+<circle class="st4" cx="325" cy="402" r="31.5"/>
+<line class="st4" x1="249" y1="433.5" x2="276" y2="433.5"/>
+<line class="st4" x1="262.5" y1="420" x2="262.5" y2="447"/>
+</svg>

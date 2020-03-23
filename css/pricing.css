@@ -1,0 +1,98 @@
+.pricing {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__text {
+    text-align: center;
+}
+
+.pricing__text p {
+    font-size: 14px;
+    color: var(--cor-cinza);
+}
+
+.pricing__cards__items {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.pricing__cards__items__item {
+    height: 530px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: dashed 2px transparent;
+}
+
+.pricing__cards__items__item:hover {
+    border: dashed 2px var(--cor-amarelo);
+    box-shadow: 10px 10px 10px rgb(240, 240, 240);
+}
+
+.pricing__cards__items__item__title {
+    color: var(--cor-azul-escuro);
+}
+
+.pricing__cards__items__item:hover .pricing__cards__items__item__title {
+    color: var(--cor-amarelo);
+}
+
+.pricing__cards__items__item__list__list-item {
+    color: var(--cor-cinza);
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.pricing__cards__items__item__list__list-item::before {
+    content: "• ";
+    font-weight: 700;
+    color: var(--cor-amarelo);
+}
+
+.pricing__cards__items__item__price {
+    color: var(--cor-azul-escuro);
+    font-weight: 600;
+}
+
+.pricing__cards__items__item__price span {
+    color: var(--cor-amarelo);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.pricing__cards__items__item__start-now {
+    text-decoration: none;
+    color: white;
+    background: var(--cor-amarelo);
+    padding: 15px 20px;
+    border-radius: 35px;
+    font-weight: 600;
+}
+
+.pricing__cards__items__item__start-now:hover,
+.pricing__cards__items__item__start-now:active {
+    background: var(--cor-amarelo-claro);
+}
+
+@media screen and (max-width: 1220px) {
+    .pricing {
+        width: 100%;
+    }
+    .pricing__cards__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing__cards__items__item {
+        margin-bottom: 40px;
+    }
+}
